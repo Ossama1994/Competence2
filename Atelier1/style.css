@@ -1,0 +1,372 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px ;
+
+	background-image: url("bg-pattern-top-desktop.svg"),url("bg-pattern-bottom-desktop.svg");
+	background-repeat: no-repeat;
+	background-position: (top left , bottom right)
+	font-family: 'Spartan', sans-serif;
+
+}
+
+.container{
+	height: 90%;
+	width: 100%;
+	max-width: 1440px;
+	margin: 31px 65px;
+	display: flex;
+	overflow: hidden;
+	flex-wrap: wrap;	
+}
+.bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.bg2{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.first{
+	width: 50%;
+	height:50%;
+	margin-top: 50px;		
+/*	background-color: red;
+*/	
+}
+.second{
+	width: 50%;
+	height: 50%;
+	margin-top: 10px;
+/*	background-color: gray;
+*/}
+.third{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	margin-top: 40px;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+/*	background-color: gray;
+*/
+}
+/*.forth{
+	width: 50%;
+	height: 50%;*/
+/*	background-color: blue;
+
+}*/
+.wrap .container .first h2{
+
+	margin-left: 30px;
+	margin-bottom: 0px;
+	font-size: 45px;
+	margin-top: -10px;
+	color: hsl(300, 43%, 39%);
+}
+.wrap .container .first p{
+
+	margin-left: 30px;
+	color: hsl(303, 10%, 53%);
+}
+
+.str{
+	margin: 2px;
+    margin-top: 16px;
+    height: 15px;
+}
+/*.wrap .container .second .starsrating1 .stars{
+	width: 50%;
+	height: 50%;
+	background-color: red;
+}*/
+.wrap .container .second  .stars1{
+
+    display: flex;
+	width: 50%;
+    height: 49px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    margin-top: 40px;
+}
+.icons{
+
+    display: flex;
+}
+
+.wrap .container .second  .stars2{
+    display: flex;
+	width: 50%;
+    height: 49px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    margin-left: 50px;
+
+
+}
+.wrap .container .second .starsrating1  .stars3{
+
+    display: flex;
+	width: 50%;
+    height: 49px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    padding-left: 25px;
+    margin-left: 100px;
+}
+.rated{
+	font-size: 13px;
+	margin-left: 13px;
+    margin-top: 1px;
+    color: hsl(300, 43%, 39%);
+}
+.third .profile1
+{
+
+    flex-basis: 26%;
+    background-color: hsl(300, 43%, 39%);
+    border-radius: 8px;
+    margin-right: 25px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.third .profile2
+{
+
+    flex-basis: 26%;
+    background-color: hsl(300, 43%, 39%);
+    border-radius: 8px;
+    margin-right: 25px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.third .profile3
+{
+
+    flex-basis: 26%;
+    background-color: hsl(300, 43%, 39%);
+    border-radius: 8px;
+    margin-right: 25px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.profile1 .profile-image img{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	margin-left: 15px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.third .profile1 .namendjob{
+	margin-top: 30px;
+	width: 200px;
+}
+
+/*h3 ,h4 {
+	margin: 0;
+}*/
+.third .profile1 p {
+	font-size: 12px;
+	text-align: left;
+	margin-left: 15px;
+	height: 200px;
+	width: 287px;
+	color: hsl(300, 24%, 96%);
+}
+.profile2 .profile-image img{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	margin-left: 15px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.third .profile2 .namendjob{
+	margin-top: 30px;
+	width: 200px;
+}
+.profile_and_image{
+	display: flex;
+}
+
+
+.third .profile2 p {
+	font-size: 12px;
+	text-align: left;
+	margin-left: 15px;
+	height: 200px;
+	width: 287px;
+	color: hsl(300, 24%, 96%);
+}
+.profile3 .profile-image img{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	margin-left: 15px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.third .profile3 .namendjob{
+	margin-top: 30px;
+	width: 200px;
+}
+
+
+.third .profile3  p{
+	font-size: 12px;
+	text-align: left;
+	margin-left: 15px;
+	height: 200px;
+	width: 287px;
+	color: hsl(300, 24%, 96%);
+}
+.job {
+	color: hsl(333, 80%, 67%);
+	font-size: 10px;
+	margin: 2px;
+}
+.name{
+	color: hsl(0, 0%, 100%);
+	font-size: 15px;
+	margin: 0;
+}
+
+@media (max-width: 946px) {
+
+.wrap .container .second .stars2{
+    display: flex;
+	width: 63%;
+    margin-left: 0;
+}
+.wrap .container .second .stars1{
+    display: flex;
+	width: 63%;
+    margin-left: 0;
+}
+.wrap .container .second .starsrating1 .stars3{
+	width: 63%;
+    margin-left: 0;
+}
+.wrap .container .first h2{
+	margin-left: 0;
+}
+.wrap .container .first p{
+	margin-left: 0;
+}
+}
+@media (max-width: 878px){
+
+.container{
+	height: 90%;
+	width: 100%;
+	max-width: 1440px;
+	margin: 31px 65px;
+	display: flex;
+	overflow: hidden;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+}
+.wrap .container .second .stars2{
+    
+	width: 400px;
+    
+}
+.wrap .container .second .stars1{
+    
+	width: 400px;
+    
+}
+.wrap .container .second .starsrating1 .stars3{
+	width: 400px;
+    
+}
+.first{
+	width: 100%;
+}
+.second{
+	width: 100%;
+}
+.third{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	margin-top: 40px;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+}
+
+}
+@media (max-width: 448px){
+
+.wrap .container .second .stars1{
+	   display: block;
+	   width: 300px;
+	   height: 75px;
+	   text-align: center;
+	   margin: 10px auto ;
+    
+}
+.container{
+	margin:0;
+}
+.wrap .container .second .stars2{
+	   display: block;
+	   width: 300px;
+	   height: 75px;
+	   text-align: center;
+	   margin: 10px auto ;
+}
+.wrap .container .second .starsrating1 .stars3 {
+       display: block;
+       height: 75px;
+       width: 300px;
+       text-align: center;
+       margin: 10px auto ;
+}
+.wrap .container .second .starsrating1 .stars3 .rated{
+       font-size: 13px;
+	   margin-right: 40px;
+       margin-top: -10px;
+}
+
+.icons{
+	justify-content: center;
+	margin-right: 46px;
+}
+
+.rated{
+
+	font-size: 13px;
+	margin-right: 40px;
+    margin-top: -10px;
+}
+.wrap .container .first h2{
+	
+	text-align: center;
+}
+.wrap .container .first p{
+	text-align: center;
+}
+
+}
